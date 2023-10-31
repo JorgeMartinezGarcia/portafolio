@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@400;700 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Agbalumo & display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    height: 100%;
+    width: 100vw;
+    background-color: #11071F;
+    
+}
+
+.nav{
+    top: 0%;
+    height: 10vh;
+    padding: 40px;
+    width: 100vw;
+    grid-area: nav;
+    background:#1A0B2E;;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    position: fixed;
+}
+.nav > ul {
+    list-style: none;
+    display: flow-root;
+    justify-content:end;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
+
+.nav a { 
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.4px;
+    
+}
+
+.nav  a:hover {
+    color: gray;
+    text-shadow: 0 0 10px rgba(89, 89, 89, 0.748)
+    
+}
+.nav li:hover {
+    transform: scale(1.1);
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.perfil{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.perfil:hover{
+    transform: scale(1.1);
+}
+
+.textos{
+    color: #DEDEDE;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contrato:hover{
+    transform: scale(1.1);
+}
+
+.contrato{
+    color: #11071F;
+    font-style: normal;
+    font-family:'Oswald';
+    font-size: 40px;
+    display: flex;
+    width: 200px;
+    height: 64px;
+    padding: 16px 38px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #9D9D9D;
+}
+
+.section-two{
+    width: 100%;
+    height: 50vh;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11071F;
+}
+
+.titulo-two{
+    font-family: Manrope;
+    color: white;
+    font-size: 40px;
+}
