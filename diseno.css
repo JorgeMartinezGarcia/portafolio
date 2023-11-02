@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Oswald:wght@400;700 & display=swap');
 @import url('https://fonts.googleapis.com/css2? family= Agbalumo & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Manrope:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -14,7 +15,7 @@ body{
     height: 100%;
     width: 100vw;
     background-color: #11071F;
-    
+    font-family: 'Fira code';
 }
 
 .nav{
@@ -23,29 +24,42 @@ body{
     padding: 40px;
     width: 100vw;
     grid-area: nav;
-    background:#1A0B2E;;
+    background:#1A0B2E;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
     gap: 12px;
     position: fixed;
 }
-.nav > ul {
-    list-style: none;
-    display: flow-root;
-    justify-content:end;
-    align-items: center;
+.nav-logo{
+    color: var(--white, #FFF);
+    font-style: normal;
+    font-weight: 700;
     display: flex;
-    gap: 50px;
+    align-items: center;
+    font-size: 22px;
+    gap :8px;
 }
 
-.nav a { 
+.nav-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.nav > div > ul {
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 100px;
+}
+
+.nav a {
     text-decoration: none;
     color: #FFF;
     text-align: center;
-    font-family: 'Plus Jakarta Sans';
     font-size: 30px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 0.4px;
     
@@ -60,8 +74,16 @@ body{
     transform: scale(1.1);
 }
 
+.logo{
+    height: 10vh;
+}
+
 .foto{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(Imagenes/AdobeStock_126016889apaisado.jpg);
     display: flex;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -80,8 +102,7 @@ body{
 }
 
 .textos{
-    color: #DEDEDE;
-    font-family:'Plus Jakarta Sans' ;
+    color: #1A0B2E;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -92,48 +113,81 @@ body{
     gap: 50px;
 }
 .contrato:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .contrato{
-    color: #11071F;
-    font-style: normal;
-    font-family:'Oswald';
-    font-size: 40px;
+    color: #FFF;
+    font-family: 'Fira code';
+    font-size: 30px;
     display: flex;
     width: 200px;
     height: 64px;
     padding: 16px 38px;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     flex-shrink: 0;
-    border-radius: 4px;
-    background: #9D9D9D;
-    border-color:#FFF ;
+    border-radius: 20px;
+    background: #11071F;
+    cursor: pointer;
 }
 
 .section-two{
     width: 100%;
-    height: 20vh;
+    height: 100vh;
     background: #FFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #11071F;
 }
 
 .titulo-two{
-    font-family: Manrope;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.projects{
+    display: flex;
+    gap: 20px;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.projects-card{
+    border: 1px solid #FFF;
+    height: 80%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 8px;
 }
 
 .projects img{
-    width: 600px;
-    height: 600px;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 20px;
-    gap: 20px;
+    width: 400px;
+    height: 50%;
 }
+
+.buttonlive{
+    color:#11071F;
+    background-color: #FFF;
+    font-family: 'Fira code';
+    font-size: 20px;
+    height: 40px;
+    width: 90px;
+    margin-top:20px;
+    cursor: pointer;
+    border: 0;
+}
+
+.buttonlive:hover{
+    transform: scale(1.2);
+}
+
+
