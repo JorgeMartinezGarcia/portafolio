@@ -117,7 +117,7 @@ body{
 }
 
 .contrato{
-    color: #FFF;
+    color: #11071F;
     font-family: 'Fira code';
     font-size: 30px;
     display: flex;
@@ -129,8 +129,9 @@ body{
     gap: 40px;
     flex-shrink: 0;
     border-radius: 20px;
-    background: #11071F;
+    background: #FFF;
     cursor: pointer;
+    border: 1px solid white;
 }
 
 .section-two{
@@ -146,7 +147,7 @@ body{
 
 .titulo-two{
     color: white;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .projects{
@@ -177,6 +178,7 @@ body{
 .buttonlive{
     color:#11071F;
     background-color: #FFF;
+    border-radius: 20px;
     font-family: 'Fira code';
     font-size: 20px;
     height: 40px;
@@ -190,4 +192,218 @@ body{
     transform: scale(1.2);
 }
 
+.section-three{
+    width: 100%;
+    height: 100vh;
+    top: auto;
+    background: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #11071F;
+}
 
+.title-three{
+    margin-top: 70px;
+    font-family: 'Fira Code';
+    font-size: 50px;
+    color: #FFF;
+
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Fira Code';
+    justify-content: end;
+    margin:40px;
+}
+
+.skill2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Fira Code';
+    justify-content: end;
+    margin: 40px;
+}
+
+/* Estilos comunes para todas las tarjetas */
+.skill-card {
+    border: 2px solid gray;
+    border-bottom: 2px solid gray;
+    padding: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 180px;
+    height: 170px;
+}
+
+.title-card{
+    width: 110%;
+    border-bottom: 2px solid gray;
+    }
+.javascript{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.javascript img{
+    width: 45px;
+    height: 30px;
+}
+
+.java{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.java img{
+    width:40px;
+    height: 20px;
+}
+
+.python{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.python img{
+    width: 16px;
+    height: 19px;
+}
+
+.mysql{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.mysql img{
+    width: 30px;
+    height: 20px;
+}
+
+.mongo{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.mongo img{
+    width: 16px;
+    height: 16px;
+}
+
+.postgreSQL{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.postgreSQL img{
+    width: 16px;
+    height: 16px;
+}
+
+.html{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.html img{
+    width: 20px;
+    height: 20px;
+}
+
+.css{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.css img{
+    height: 18px;
+    width: 18px;
+}
+
+.figma{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.figma img{
+    width: 16px;
+    height: 16px;
+}
+
+.linux{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.linux img{
+    width: 16px;
+    height: 16px;
+}
+
+.git{
+    display: flex;
+    align-items: center;
+    gap:2px;
+}
+
+.git img{
+    width: 16px;
+    height: 16px;
+}
+
+.react{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.react img{
+    width: 16px;
+    height: 16px;
+}
+.angular{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.angular img{
+    width: 16px;
+    height: 16px;
+}
+
+.vue{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.vue img{
+    height: 16px;
+    width: 16px;
+}
