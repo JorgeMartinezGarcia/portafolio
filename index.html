@@ -14,22 +14,19 @@
     <title>Portafolio Jorge Martinez</title>
 </head>
 <body>
-    <!-- i18next -->
-    <script src="https://cdn.jsdelivr.net/npm/i18next@21.3.0/dist/umd/i18next.min.js"></script>
-    <!-- i18next-http-backend -->
-    <script src="https://cdn.jsdelivr.net/npm/i18next-http-backend@1.4.2/dist/umd/i18nextHttpBackend.min.js"></script>
     <!--Barra de navegación-->
-    <nav class="nav">
+    <nav class="nav" id="navbar">
         <div class="nav-logo">
             <img class="logo" src="/Imagenes/JORGE MARTINEZ.png"><h2>JORGE</h2>
         </div>
         <div class="nav-text">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Proyectos</a></li>
+                <li><a href="#proyects">Proyectos</a></li>
                 <li><a href="#">Contactame</a></li>
             </ul>
         </div>
+
     </nav>
 
     <div class="foto">
@@ -43,9 +40,9 @@
         <img class="perfil" src="/Imagenes/1118685ba246fa2ca3252136120fdd6f.jpeg" alt="">
     </div>
 
-    <div class="section-two">
-    <div class="titulo-two" ><h1>Mis Proyectos</h1></div>
-    <div class="projects">
+    <div class="section-two" id="proyects" >
+    <div class="titulo-two"  ><h1>Mis Proyectos</h1></div>
+    <div class="projects" >
         <div class="projects-card">
             <img src="/Imagenes/Captura de pantalla 2023-11-01 175801.png" alt="">
             <h3>Python, Django, Flask</h3>
@@ -70,46 +67,79 @@
 <div class="section-three">
     <div class="title-three"><h1>Mis Habilidades</h1></div>
     <div class="skill">
-        <div class="skill-card">
-        <div class="title-card"><h3>Languages</h3></div>
-        <div class="javascript"><img src="/Imagenes/JavaScript-Logo.png" alt=""><p>JavaScript</p>
-        </div>
-        <div class="java"><img src="/Imagenes/Java-Logo.png" alt=""><p>Java</p>
-        </div>
-        <div class="python"><img src="/Imagenes/python.svg" alt=""><p>Python</p>
-        </div>
-    </div>
-    <div class="skill-card">
-        <div class="title-card"><h3>Databases</h3></div>
-        <div class="mysql"><img src="/Imagenes/MySQL.svg.webp" alt=""><p>MySQL</p>
-        </div>
-        <div class="mongo"><img src="/Imagenes/mongodb_original_logo_icon_146424.png" alt=""><p>Mongo</p></div>
-        <div class="postgreSQL"><img src="/Imagenes/Postgresql_elephant.svg.png" alt=""><p>PostgreSQL</p></div>
-    </div>
-    <div class="skill-card">
-        <div class="title-card"><h3>Other</h3></div>
-        <div class="html"><img src="/Imagenes/html-5 (1).png" alt=""><p>Html</p>
-        </div>
-        <div class="css"><img src="/Imagenes/logo-css.png" alt=""><p>Css</p></div>
-    </div>
-    </div>
-    <div class="skill2">
-    <div class="skill-card">
-        <div class="title-card"><h3>Tools</h3></div>
-        <div class="figma"><img src="/Imagenes/figma.jpg" alt=""><p>Figma</p>
-        </div>
-        <div class="linux"><img src="/Imagenes/ubuntu.png" alt=""><p>Linux</p>
-        </div>
-        <div class="git"><img src="/Imagenes/Git.png" alt=""><p>Git</p>
-        </div>
-    </div>
-    <div class="skill-card">
-        <div class="title-card"><h3>Frameworks</h3></div>
-        <div class="react"><img src="/Imagenes/React.svg.png" alt=""><p>React</p></div>
-        <div class="angular"><img src="/Imagenes/Angular_full_color_logo.svg.png" alt=""><p>Angular</p></div>
-        <div class="vue"><img src="/Imagenes/vuejs.png" alt=""><p>Vue.js</p></div>
-    </div>
-</div>
+        <div class="skill-image">
 
+        </div>
+        <div class="skill-cards">
+            <div class="skill-section">
+                <div class="skill-card" id="card">
+                    <div class="title-card"><h3>Frameworks</h3></div>
+                    <div class="container-skills-img">
+                        <div class="react"><img src="/Imagenes/React.svg.png" alt=""><p>React</p></div>
+                        <div class="angular"><img src="/Imagenes/Angular_full_color_logo.svg.png" alt=""><p>Angular</p></div>
+                        <div class="vue"><img src="/Imagenes/vuejs.png" alt=""><p>Vue.js</p></div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="skill-section">
+                <div class="skill-card">
+                    <div class="title-card"><h3>Tools</h3></div>
+                    <div class="container-skills-img">
+                        <div class="figma"><img src="/Imagenes/figma.jpg" alt=""><p>Figma</p>
+                        </div>
+                        <div class="linux"><img src="/Imagenes/ubuntu.png" alt=""><p>Linux</p>
+                        </div>
+                        <div class="git"><img src="/Imagenes/Git.png" alt=""><p>Git</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="skill-card">
+                    <div class="title-card"><h3>Frameworks</h3></div>
+                    <div class="container-skills-img">
+                        <div class="react"><img src="/Imagenes/React.svg.png" alt=""><p>React</p></div>
+                        <div class="angular"><img src="/Imagenes/Angular_full_color_logo.svg.png" alt=""><p>Angular</p></div>
+                        <div class="vue"><img src="/Imagenes/vuejs.png" alt=""><p>Vue.js</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-section">
+                <div class="skill-card">
+                    <div class="title-card"><h3>Languages</h3></div>
+                    <div class="container-skills-img">
+                        <div class="javascript"><img src="/Imagenes/JavaScript_logo.svg.png" alt=""><p>JavaScript</p>
+                        </div>
+                        <div class="java"><img src="/Imagenes/java-svgrepo-com.svg" alt=""><p>Java</p>
+                        </div>
+                        <div class="python"><img src="/Imagenes/python.svg" alt=""><p>Python</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="title-card"><h3>Databases</h3></div>
+                    <div class="container-skills-img">
+                        <div class="mysql"><img src="/Imagenes/MySQL.svg.webp" alt=""><p>MySQL</p>
+                        </div>
+                        <div class="mongo"><img src="/Imagenes/mongodb_original_logo_icon_146424.png" alt=""><p>Mongo</p></div>
+                        <div class="postgreSQL"><img src="/Imagenes/Postgresql_elephant.svg.png" alt=""><p>PostgreSQL</p></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="title-card"><h3>Other</h3></div>
+                    <div class="container-skills-img">
+                        <div class="html"><img src="/Imagenes/html-5 (1).png" alt=""><p>Html</p>
+                        </div>
+                        <div class="css"><img src="/Imagenes/logo-css.png" alt=""><p>Css</p></div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+
+    <script src="./JS/main.js"></script>
 </body>
 </html>

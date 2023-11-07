@@ -28,7 +28,7 @@ body{
     display: flex;
     align-items: center;
     gap: 12px;
-    position: fixed;
+    /*position: fixed;*/
 }
 .nav-logo{
     color: var(--white, #FFF);
@@ -221,38 +221,46 @@ body{
     color: #FFF;
     font-size: 20px;
     font-family: 'Fira Code';
-    justify-content: end;
-    margin:40px;
+    margin:100px;
 }
 
-.skill2{
+.skill-cards{
+    width: 50%;
     display: flex;
-    align-items: center;
     gap: 20px;
-    width: 100%;
-    color: #FFF;
-    font-size: 20px;
-    font-family: 'Fira Code';
     justify-content: end;
-    margin: 40px;
+}
+
+.skill-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-image{
+    width: 50%;
 }
 
 /* Estilos comunes para todas las tarjetas */
 .skill-card {
     border: 2px solid gray;
-    border-bottom: 2px solid gray;
-    padding: 0 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
     text-align: center;
     width: 180px;
     height: 170px;
 }
 
+.container-skills-img{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .title-card{
-    width: 110%;
+    width: 100%;
     border-bottom: 2px solid gray;
     }
 .javascript{
@@ -262,8 +270,8 @@ body{
 }
 
 .javascript img{
-    width: 45px;
-    height: 30px;
+    width: 16px;
+    height: 16px;
 }
 
 .java{
@@ -273,8 +281,8 @@ body{
 }
 
 .java img{
-    width:40px;
-    height: 20px;
+    width:16px;
+    height: 16px;
 }
 
 .python{

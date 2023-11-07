@@ -1,4 +1,4 @@
-import i18next from 'i18next';
+/* import i18next from 'i18next';
 import i18nextHttpBackend from 'i18next-http-backend';
 
 i18next
@@ -11,5 +11,6 @@ i18next
       loadPath: '/locales/en-translation.json' // ruta donde se encuentran los archivos de traducción
     }
 }, function(err, t) {
-document.getElementById('content').innerHTML = i18next.t('welcome');
-});
+document.getElementById('').innerHTML = i18next.t('');
+}); */
+
